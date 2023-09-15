@@ -1,7 +1,27 @@
+@font-face /*perintah untuk memanggil font eksternal*/
+{
+  font-family: 'Bahnschrift'; /*memberikan nama bebas untuk font*/
+  src: url('/assets/font/Bahnschrift-Font-Family/BAHNSCHRIFT.TTF');/*memanggil file font eksternalnya di folder nexa*/
+}
+
+#navbar{
+    transition: 0.5s;
+}
+
 .header-section{
     background-image: url('/assets/img/DSC_0772.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
-    height: 480px;
+    height: 500px;
+}
+
+.card-section{
+    width: 100%;
+    height: fit-content; 
+    z-index: 1; 
+    top: -33px;
+    border-radius: 100px;
+    font-family: 'Bahnschrift';
+    margin-bottom: 20px;
 }
