@@ -1,7 +1,10 @@
 @font-face /*perintah untuk memanggil font eksternal*/
 {
   font-family: 'Bahnschrift'; /*memberikan nama bebas untuk font*/
-  src: url('/assets/font/Bahnschrift-Font-Family/BAHNSCHRIFT.TTF');/*memanggil file font eksternalnya di folder nexa*/
+  src: url('/assets/font/Bahnschrift-Font-Family/BAHNSCHRIFT.TTF');
+
+  font-family: 'Brillotus'; /*memberikan nama bebas untuk font*/
+  src: url('/assets/font/Brillotus/Brillotus.otf');
 }
 
 #navbar{
@@ -13,7 +16,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
-    height: 500px;
+    height: 400px;
 }
 
 .card-section{
@@ -24,4 +27,22 @@
     border-radius: 100px;
     font-family: 'Bahnschrift';
     margin-bottom: 20px;
+}
+
+.text-greeting{
+    position: absolute;
+    z-index: 1; 
+    top: 350px;
+    font-family: 'Brillotus';
+    margin-bottom: 20px;
+    color: #9900cc;
+    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+}
+
+.footer-section{
+    width: 100%;
+    height: fit-content; 
+    z-index: 1; 
+    top: -25px;
+    border-radius: 100px;
 }

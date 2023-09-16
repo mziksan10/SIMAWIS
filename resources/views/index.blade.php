@@ -23,16 +23,16 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/">Home</a>
+              <a class="nav-link" aria-current="page" href="/"><b>Home</b></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Pengumuman</a>
+              <a class="nav-link" href="#"><b>Pengumuman</b></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Kuota</a>
+              <a class="nav-link" href="#"><b>Kuota</b></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Persyaratan</a>
+              <a class="nav-link" href="#"><b>Persyaratan</b></a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-primary" href="#"><b>Login</b></a>
@@ -42,7 +42,15 @@
       </div>
     </nav>
   </section>
-  <section id="pengumuman" class="bg-secondary-subtle">
+  <section class="bg-secondary-subtle">
+    <div class="d-flex justify-content-center">
+      <h1 class="text-greeting text-center mx-auto pt-2"><b>Selamat dan Sukses!</b></h1>
+      <div class="justify-content-center mt-3" style="position: absolute; background-color: #9900cc; width: 80px; height: 5px;">
+      </div>
+      <iframe class="mb-5 pt-5" width="960" height="540" src="https://www.youtube.com/embed/d7jdIXLeynw?si=WG6bRTqXAk5o0Sh6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+  </section>
+  <section id="pengumuman" class="bg-light">
     <div class="container justify-content-center">
       <div class="card card-section shadow-sm text-center mx-auto pt-2">
         <h1><b>PENGUMUMAN TERKINI</b></h1>
@@ -69,9 +77,9 @@
           </div>
         </div>
       </div>
-      <div class="d-flex justify-content-center mt-3 pb-5">
+      <div class="d-flex justify-content-center mt-3">
         <nav aria-label="Page navigation example">
-          <ul class="pagination shadow-sm">
+          <ul class="pagination shadow-sm mb-5">
             <li class="page-item">
               <a class="page-link" href="#" aria-label="Previous">
                 <span aria-hidden="true">&laquo;</span>
@@ -90,50 +98,58 @@
       </div>
     </div>
   </section>
-  <section id="kuota" class="bg-light">
+  <section id="kuota" class="bg-secondary-subtle">
     <div class="container justify-content-center">
       <div class="card card-section shadow-sm text-center mx-auto pt-2">
         <h1><b>KUOTA PENDAFTARAN WISUDA</b></h1>
       </div>
-      <table class="table table-bordered">
-        <thead class="bg-secondary text-center text-uppercase">
-          <tr>
-            <th scope="col">#</th>
-            <th scope="col">Program Studi</th>
-            <th scope="col">Jenjang</th>
-            <th scope="col">Kuota</th>
-            <th scope="col">Tersedia</th>
-            <th scope="col">Terisi</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th class="text-end" scope="row">1</th>
-            <td>Manajemen Sistem Informasi</td>
-            <td class="text-center">DIV</td>
-            <td class="text-end">300</td>
-            <td class="text-end">50</td>
-            <td class="text-end">250</td>
-          </tr>
-          <tr>
-            <th class="text-end" scope="row">2</th>
-            <td>Komputerisasi Akuntansi</td>
-            <td class="text-center">DIV</td>
-            <td class="text-end">300</td>
-            <td class="text-end">50</td>
-            <td class="text-end">250</td>
-          </tr>
-          <tr>
-            <th class="text-end" scope="row">3</th>
-            <td>Farmasi</td>
-            <td class="text-center">DIII</td>
-            <td class="text-end">300</td>
-            <td class="text-end">50</td>
-            <td class="text-end">250</td>
-          </tr>
-        </tbody>
-      </table>
+      <div class="d-flex justify-content-center mt-3">
+        <table class="table table-bordered mb-5">
+          <thead class="bg-secondary text-center text-uppercase">
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Program Studi</th>
+              <th scope="col">Jenjang</th>
+              <th scope="col">Kuota</th>
+              <th scope="col">Tersedia</th>
+              <th scope="col">Terisi</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th class="text-end" scope="row">1</th>
+              <td>Manajemen Sistem Informasi</td>
+              <td class="text-center">DIV</td>
+              <td class="text-end">300</td>
+              <td class="text-end">50</td>
+              <td class="text-end">250</td>
+            </tr>
+            <tr>
+              <th class="text-end" scope="row">2</th>
+              <td>Komputerisasi Akuntansi</td>
+              <td class="text-center">DIV</td>
+              <td class="text-end">300</td>
+              <td class="text-end">50</td>
+              <td class="text-end">250</td>
+            </tr>
+            <tr>
+              <th class="text-end" scope="row">3</th>
+              <td>Farmasi</td>
+              <td class="text-center">DIII</td>
+              <td class="text-end">300</td>
+              <td class="text-end">50</td>
+              <td class="text-end">250</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
+  </section>
+  <section class="bg-secondary">
+    <div class="container justify-content-center">
+      <div class="card footer-section shadow-sm text-center mx-auto pt-2 px-3">
+        <p>Copyright &copy; SIMAWIS PPG {{ date('Y') }} | Dev. by <a href="https://github.com/mziksan10" style="text-decoration: none;">mziksan10</a>.</p>
+      </div>
   </section>
 
   <script src="/assets/js/myScript.js"></script>
