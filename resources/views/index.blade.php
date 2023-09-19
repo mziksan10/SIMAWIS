@@ -53,7 +53,7 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#home"><b>Home</b></a>
+              <a class="nav-link" aria-current="page" href="/"><b>Home</b></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#pengumuman"><b>Pengumuman</b></a>
@@ -77,11 +77,11 @@
       <h1 class="text-greeting text-center mx-auto pt-2"><b>Happy Graduation!</b></h1>
       <div class="blink justify-content-center mt-3" style="position: absolute; background-color: #9900cc; width: 50px; height: 5px; border-radius: 10px;">
       </div>
-      <iframe class="mb-5 pt-5" width="960" height="540" src="https://www.youtube.com/embed/d7jdIXLeynw?si=WG6bRTqXAk5o0Sh6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <iframe class="mb-5 pt-5" width="768" height="432" src="https://www.youtube.com/embed/d7jdIXLeynw?si=WG6bRTqXAk5o0Sh6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
   </section>
   <section id="pengumuman" class="bg-light">
-    <div class="container justify-content-center">
+    <div class="container justify-content-center pb-5">
       <div class="card card-section shadow-sm text-center mx-auto pt-2">
         <h1><b>PENGUMUMAN TERKINI</b></h1>
       </div>
@@ -109,7 +109,7 @@
       </div>
       <div class="d-flex justify-content-center mt-3">
         <nav aria-label="Page navigation example">
-          <ul class="pagination shadow-sm mb-5">
+          <ul class="pagination shadow-sm">
             <li class="page-item">
               <a class="page-link" href="#" aria-label="Previous">
                 <span aria-hidden="true">&laquo;</span>
@@ -129,11 +129,11 @@
     </div>
   </section>
   <section id="kuota" class="bg-secondary-subtle">
-    <div class="container justify-content-center">
+    <div class="container justify-content-center pb-5">
       <div class="card card-section shadow-sm text-center mx-auto pt-2">
-        <h1><b>KUOTA PENDAFTARAN WISUDA</b></h1>
+        <h1><b>KUOTA WISUDA</b></h1>
       </div>
-      <div class="justify-content-center mt-3">
+      <div class="d-flex justify-content-center mt-3">
         <table class="table table-bordered shadow-sm">
           <thead class="bg-secondary text-center text-uppercase">
             <tr>
@@ -180,25 +180,47 @@
             </tr>
           </tfoot>
         </table>
-        <span>
-          <p class="text-danger mb-5"><i>*Data pada tabel diatas masih berupa dummy.</i></p>
-        </span>
+      </div>
+      <div class="d-flex">
+        <p class="text-danger"><i>*Data pada tabel diatas masih berupa dummy.</i></p>
       </div>
     </div>
   </section>
   <section id="pedoman" class="bg-light">
-    <div class="container justify-content-center">
+    <div class="container justify-content-center pb-5">
       <div class="card card-section shadow-sm text-center mx-auto pt-2">
         <h1><b>PEDOMAN</b></h1>
       </div>
+      <article>
+        <p>Berikut kami lampirkan Pedoman Penulisan Paper, Lembar Konsultasi dan Persetujuan, dan Lembar Pernyataan.</p>
+        <ul class="list-unstyled">
+          <li>Ketentuan:
+            <ol>
+              <li>Paper disusun setelah dinyatakan lulus sidang TA / Skripsi dan sudah melakukan perbaikan sesuai dengan hasil catatan sidang.</li>
+              <li>Paper jurnal ilmiah diambil dari hasil bahan TA / Skripsi yang telah diuji dan lulus serta perbaikan sesuai catatan tim penguji serta mengikuti format pedoman penulisan paper jurnal ilmiah yang sudah ditentukan lembaga.</li>
+              <li>Menyerahkan paper jurnal ilmiah berupa hardcopy dan softcopy, lembar konsultasi dan persetujuan, dan lembar pernyataan yang sudah diisi ke Bagian Akademik.</li>
+            </ol>
+          </li>
+          <br>
+          <li>Link download:
+            <ul>
+              <li>Pedoman Penulisan Artikel Ilmiah untuk Publikasi<a href="#"><span class="badge rounded-pill bg-danger ms-1">Download</span></a></li>
+              <li>Lembar Bimbingan dan Persetujuan Paper<a href="#"><span class="badge rounded-pill bg-danger ms-1">Download</span></a></li>
+              <li>Form Pengajuan Judul<a href="#"><span class="badge rounded-pill bg-danger ms-1">Download</span></a></li>
+              <li>Form Kehadiran PKL<a href="#"><span class="badge rounded-pill bg-danger ms-1">Download</span></a></li>
+              <li>Form Konsultasi Bimbingan<a href="#"><span class="badge rounded-pill bg-danger ms-1">Download</span></a></li>
+            </ul>
+          </li>
+        </ul>
+      </article>
     </div>
   </section>
-  <section class="bg-secondary">
+  <footer id="pedoman" class="bg-secondary">
     <div class="container justify-content-center">
       <div class="card footer-section shadow-sm text-center mx-auto pt-2 px-3">
         <p>Copyright &copy; SIMAWIS PPG {{ date('Y') }} | Dev. by <a href="https://github.com/mziksan10" style="text-decoration: none;">mziksan10</a>.</p>
       </div>
-  </section>
+  </footer>
 
   <script src="/assets/js/myScript.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
