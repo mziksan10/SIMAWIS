@@ -11,6 +11,8 @@ html{
     scroll-behavior: smooth;
 }
 
+/* index */
+
 #navbar{
     transition: 0.5s;
 }
@@ -63,4 +65,23 @@ html{
     z-index: 1; 
     top: -25px;
     border-radius: 100px;
+}
+
+/* Login */
+.body-bg-login{
+    background-image: url('/assets/img/BG-BATIK.jpg');
+    background-size: 80px;
+    background-repeat: repeat;
+}
+
+.login-section{
+    margin-top: 13%;
+}
+
+.img-login{
+    position: absolute;
+    z-index: 1; 
+    top: 75px;
+    left: 130px;
+    width: 80px;
 }

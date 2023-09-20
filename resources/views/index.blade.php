@@ -41,8 +41,11 @@
 </head>
 
 <body>
+  <!-- Scroll To Up -->
+  <button class="btn btn-secondary position-fixed" style="width: 50px; height: 50px; right: 30px; bottom: 30px; z-index: 100;" onclick="topFunction()" id="scrlToUp" title="Go to top"><i class="fas fa-chevron-up"></i></button>
+
   <section class="header-section">
-    <nav id="navbar" class="navbar navbar-expand-lg fixed-top">
+    <nav id="navbar" class="navbar bg-light bg-opacity-25 navbar-expand-lg fixed-top">
       <div class="container">
         <a id="logo" class="navbar-brand" href="/">
           <img src="/assets/img/icon-nav.png" alt="Logo" height="50" class="d-inline-block align-text-top">
